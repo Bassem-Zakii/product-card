@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="product-card">
+      <div class="logo-cart">
+        <img src="img/product-logo.png" alt="adidas" draggable="true" />
+        <i class="bx bx-shopping-bag"></i>
+      </div>
+      <ul class="main-imgs">
+        <li class="active">
+          <img src="img/blue.png" alt="blue" class="blue" draggable="true" />
+        </li>
+        <li>
+          <img src="img/pink.png" alt="pink" class="pink" draggable="true" />
+        </li>
+        <li>
+          <img
+            src="img/yellow.png"
+            alt="yellow"
+            class="yellow"
+            draggable="true"
+          />
+        </li>
+      </ul>
+      <div class="product-info">
+        <h4>Adidas ZX</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ut</p>
+        <ul class="stars">
+          <li><i class="bx bxs-star"></i></li>
+          <li><i class="bx bxs-star"></i></li>
+          <li><i class="bx bxs-star"></i></li>
+          <li><i class="bx bxs-star"></i></li>
+          <li><i class="bx bx-star"></i></li>
+        </ul>
+      </div>
+      <div class="color-price">
+        <div class="color-option">
+          <span class="colors">Color:</span>
+          <ul>
+            <li class="active">
+              <span class="blue"></span>
+            </li>
+            <li>
+              <span class="pink"></span>
+            </li>
+            <li>
+              <span class="yellow"></span>
+            </li>
+          </ul>
+        </div>
+        <div class="price">
+          <span class="price-num">$09.99</span>
+          <!-- <span class="price-letter">Nine dollar only</span> -->
+        </div>
+      </div>
+      <button class="add-cart">Add to Cart</button>
+    </div>
+  </body>
+</html>
